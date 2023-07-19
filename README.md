@@ -31,10 +31,6 @@ Wanderlust is a Spring Boot-based travel management system designed to assist tr
 - Apache Maven for building the project.
 - Spring Boot and Spring Framework dependencies.
 
-Certainly! Here's the updated installation section with an additional method for manually building the project after cloning it:
-
-Apologies for the oversight. You are right; the `target` directory is created after building the project using Maven. To clarify, I'll update the installation section to mention using an IDE for building the project.
-
 ## Installation
 
 To get the Wanderlust project up and running, follow these steps:
