@@ -9,6 +9,7 @@ Wanderlust is a travel management system that allows users to explore various tr
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Sample Data](#sample-data)
 - [License](#license)
 
 ## Introduction
@@ -26,7 +27,7 @@ Wanderlust is a Spring Boot-based travel management system designed to assist tr
 
 ## Prerequisites
 
-- Java Development Kit (JDK) 8 or higher.
+- Java Development Kit (JDK) 17 or higher.
 - Apache Maven for building the project.
 - Spring Boot and Spring Framework dependencies.
 
@@ -53,6 +54,10 @@ Once the application is up and running, you can access the following endpoints:
 - `/packages/{packageId}/passengers` - Get a list of passengers enrolled in a specific package.
 - `/activities/available` - Get a list of available activities for signing up as a passenger.
 - `/passengers/{passengerId}` - Get details of a specific passenger by their ID.
+
+## Sample Data
+
+The Wanderlust application comes with pre-populated sample data for passengers, activities, destinations, and packages with IDs 1 to 7. Please note that this sample data is not well-structured or equally distributed, and it is intended for demonstration purposes only.
 
 ## License
 
