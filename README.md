@@ -35,6 +35,8 @@ Wanderlust is a Spring Boot-based travel management system designed to assist tr
 
 To get the Wanderlust project up and running, follow these steps:
 
+### Method 1: Manual Build
+
 1. Clone the Wanderlust repository to your local machine.
 
 ```bash
@@ -47,7 +49,7 @@ git clone https://github.com/Kamaleshwaran-Valarmathi/Wanderlust.git
 
 4. Run the main function in the `WanderlustApplication` class to start the application.
 
-Alternatively, if you prefer to use the command-line, you can still build the project with Maven as mentioned in Method 1:
+### Method 2: Using Maven
 
 ```bash
 cd Wanderlust
