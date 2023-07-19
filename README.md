@@ -31,20 +31,40 @@ Wanderlust is a Spring Boot-based travel management system designed to assist tr
 - Apache Maven for building the project.
 - Spring Boot and Spring Framework dependencies.
 
+Certainly! Here's the updated installation section with an additional method for manually building the project after cloning it:
+
+Apologies for the oversight. You are right; the `target` directory is created after building the project using Maven. To clarify, I'll update the installation section to mention using an IDE for building the project.
+
 ## Installation
 
+To get the Wanderlust project up and running, follow these steps:
+
 1. Clone the Wanderlust repository to your local machine.
-2. Build the project using Maven.
 
 ```bash
+git clone https://github.com/Kamaleshwaran-Valarmathi/Wanderlust.git
+```
+
+2. Open the project in your preferred Integrated Development Environment (IDE), such as IntelliJ IDEA, Eclipse, or Visual Studio Code.
+
+3. Build the project within the IDE using the provided build or run options. This will compile the code and create the necessary target or output directories.
+
+4. Run the main function in the `WanderlustApplication` class to start the application.
+
+Alternatively, if you prefer to use the command-line, you can still build the project with Maven as mentioned in Method 1:
+
+```bash
+cd Wanderlust
 mvn clean install
 ```
 
-3. Run the application.
+After building the project, you can run the application using Maven:
 
 ```bash
 mvn spring-boot:run
 ```
+
+Choose the method that suits you best to build and run the Wanderlust application. Once the application is up and running, you can access the provided endpoints to interact with the system.
 
 ## Usage
 
