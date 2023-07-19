@@ -1,5 +1,3 @@
-Sure! Below is a sample README file for the Wanderlust project:
-
 # Wanderlust
 
 Wanderlust is a travel management system that allows users to explore various travel packages, destinations, and activities. It enables passengers to sign up for activities, and provides a seamless experience for managing travel plans.
