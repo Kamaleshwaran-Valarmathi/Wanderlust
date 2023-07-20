@@ -23,7 +23,7 @@ Wanderlust is a Spring Boot-based travel management system designed to assist tr
 - Discover activities offered in each destination.
 - Sign up for activities as a passenger.
 - Calculate discounted prices for premium, gold, and standard members.
-- Check the available capacity for each activity to avoid overbooking.
+- Check the total capacity, enrolled capacity and available capacity for each available activity.
 
 ## Prerequisites
 
