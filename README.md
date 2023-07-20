@@ -69,8 +69,11 @@ Choose the method that suits you best to build and run the Wanderlust applicatio
 Once the application is up and running, you can access the following endpoints:
 
 - `/packages/{packageId}` - Get details of a specific package by its ID, including package name, destinations and details of the activities available at each destination, like name, cost, capacity and description.
+
 - `/packages/{packageId}/passengers` - Get a list of passengers enrolled in a specific package, including package name, passenger capacity, number of passengers currently enrolled and name & number of each passenger.
+
 - `/passengers/{passengerId}` - Get details of a specific passenger by their ID, including their name, passenger number, balance (if applicable) and list of each activity they have signed up for, including the destination the at which the activity is taking place and the price the passenger paid for the activity.
+
 - `/activities/available` - Get a details of all the activities that still have spaces available for signing up as a passenger, including how many spaces are available.
 
 ## Sample Data
