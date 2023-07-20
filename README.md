@@ -83,6 +83,8 @@ Choose the method that suits you best to build and run the Wanderlust applicatio
 
 Once the application is up and running, you can access the following endpoints using `http://localhost:8080` as the base URL:
 
+- `/` - This is the home page endpoint which lists all the available endpoints in this application. If you access an invalid endpoint, you will be redirected to this home page endpoint.
+
 - `/packages/{packageId}` - Get details of a specific package by its ID, including package name, destinations and details of the activities available at each destination, like name, cost, capacity and description.
 
 - `/packages/{packageId}/passengers` - Get a list of passengers enrolled in a specific package, including package name, passenger capacity, number of passengers currently enrolled and name & number of each passenger.
