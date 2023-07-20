@@ -49,13 +49,13 @@ public class Init {
 
 
     private static void populatePassengerTable() {
-        PassengerTable.add(new Passenger(1L, "Passenger 1", 1L, 100L, Membership.STANDARD));
-        PassengerTable.add(new Passenger(2L, "Passenger 2", 2L, 50L, Membership.STANDARD));
-        PassengerTable.add(new Passenger(3L, "Passenger 3", 3L, 0L, Membership.PREMIUM));
-        PassengerTable.add(new Passenger(4L, "Passenger 4", 4L, 0L, Membership.PREMIUM));
-        PassengerTable.add(new Passenger(5L, "Passenger 5", 5L, 70L, Membership.GOLD));
-        PassengerTable.add(new Passenger(6L, "Passenger 6", 6L, 60L, Membership.GOLD));
-        PassengerTable.add(new Passenger(7L, "Passenger 7", 7L, 75L, Membership.GOLD));
+        PassengerTable.add(new Passenger(1L, "Passenger 1", 9876543210L, 100L, Membership.STANDARD));
+        PassengerTable.add(new Passenger(2L, "Passenger 2", 8765432109L, 50L, Membership.STANDARD));
+        PassengerTable.add(new Passenger(3L, "Passenger 3", 7654321098L, 0L, Membership.PREMIUM));
+        PassengerTable.add(new Passenger(4L, "Passenger 4", 6543210987L, 0L, Membership.PREMIUM));
+        PassengerTable.add(new Passenger(5L, "Passenger 5", 5432109876L, 70L, Membership.GOLD));
+        PassengerTable.add(new Passenger(6L, "Passenger 6", 4321098765L, 60L, Membership.GOLD));
+        PassengerTable.add(new Passenger(7L, "Passenger 7", 3210987654L, 75L, Membership.GOLD));
     }
 
 
