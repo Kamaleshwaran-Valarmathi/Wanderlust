@@ -2,7 +2,7 @@
 
 Wanderlust is a travel management system that allows users to explore various travel packages, destinations, and activities. It enables passengers to sign up for activities, and hepls them manage their travel plans.
 
-![Sample Output](/assets/Sample_Output.png)
+![Sample Output](assets/Sample_Output.png)
 
 ## Table of Contents
 
