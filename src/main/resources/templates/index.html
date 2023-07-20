@@ -7,11 +7,24 @@
     <h1>Welcome to Wanderlust</h1>
     <h2>Available Endpoints:</h2>
     <ul>
-        <li><a href="/packages/{packageId}">/packages/{packageId}</a></li>
-        <li><a href="/packages/{packageId}/passengers">/packages/{packageId}/passengers</a></li>
-        <li><a href="/passengers/{passengerId}">/passengers/{passengerId}</a></li>
-        <li><a href="/activities/available">/activities/available</a></li>
+        <li>
+            <a href="/packages/{packageId}">/packages/{packageId}</a>
+            <p>Get details of a specific package by its ID, including package name, destinations and details of the activities available at each destination, like name, cost, capacity and description.</p>
+        </li>
+        <li>
+            <a href="/packages/{packageId}/passengers">/packages/{packageId}/passengers</a>
+            <p>Get a list of passengers enrolled in a specific package, including package name, passenger capacity, number of passengers currently enrolled and name & number of each passenger.</p>
+        </li>
+        <li>
+            <a href="/passengers/{passengerId}">/passengers/{passengerId}</a>
+            <p>Get details of a specific passenger by their ID, including their name, passenger number, balance (if applicable) and list of each activity they have signed up for, including the destination the at which the activity is taking place and the price the passenger paid for the activity.</p>
+        </li>
+        <li>
+            <a href="/activities/available">/activities/available</a>
+            <p>Get details of all the activities that still have spaces available for signing up as a passenger, including how many spaces are available.</p>
+        </li>
     </ul>
+    <br>
     <h3>Note</h3>
     <p>Please replace {packageId} and {passengerId} with the desired IDs (i.e., 1 to 7 for testing) while accessing the endpoints.</p>
     </body>
