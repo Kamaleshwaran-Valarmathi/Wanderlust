@@ -76,6 +76,8 @@ Once the application is up and running, you can access the following endpoints u
 
 - `/activities/available` - Get a details of all the activities that still have spaces available for signing up as a passenger, including how many spaces are available.
 
+Please replace `{packageId}` and `{passengerId}` with the desired IDs (i.e., 1 to 7 for testing) while accessing the endpoints.
+
 ## Sample Data
 
 The Wanderlust application comes with pre-populated sample data for passengers, activities, destinations, and packages with IDs 1 to 7. Please note that this sample data is not well-structured or equally distributed, and it is intended for demonstration purposes only.
