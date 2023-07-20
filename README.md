@@ -1,13 +1,14 @@
 # Wanderlust
 
-Wanderlust is a travel management system that allows users to explore various travel packages, destinations, and activities. It enables passengers to sign up for activities, and hepls them manage their travel plans.
-
-![Sample Output](assets/Sample_Output.png)
+Wanderlust is a travel management system that allows users to explore various travel packages, destinations, and activities. It enables passengers to sign up for activities and helps them manage their travel plans.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Class Diagram](#Class_Diagram)
+- [Database Design](#Database_Design)
+- [Sample Output](#Sample_Output)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -26,6 +27,18 @@ Wanderlust is a Spring Boot-based travel management system designed to assist tr
 - Sign up for activities as a passenger.
 - Calculate discounted prices for premium, gold, and standard members.
 - Check the total capacity, enrolled capacity and available capacity for each available activity.
+
+## Class Diagram
+
+![Class Diagram](assets/Class_Design.png)
+
+## Database Design
+
+![Database Design](assets/DB_Design.png)
+
+## Sample Output
+
+![Sample Output](assets/Sample_Output.png)
 
 ## Prerequisites
 
@@ -76,7 +89,7 @@ Once the application is up and running, you can access the following endpoints u
 
 - `/passengers/{passengerId}` - Get details of a specific passenger by their ID, including their name, passenger number, balance (if applicable) and list of each activity they have signed up for, including the destination the at which the activity is taking place and the price the passenger paid for the activity.
 
-- `/activities/available` - Get a details of all the activities that still have spaces available for signing up as a passenger, including how many spaces are available.
+- `/activities/available` - Get details of all the activities that still have spaces available for signing up as a passenger, including how many spaces are available.
 
 Please replace `{packageId}` and `{passengerId}` with the desired IDs (i.e., 1 to 7 for testing) while accessing the endpoints.
 
