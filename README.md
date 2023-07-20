@@ -66,7 +66,7 @@ Choose the method that suits you best to build and run the Wanderlust applicatio
 
 ## Usage
 
-Once the application is up and running, you can access the following endpoints:
+Once the application is up and running, you can access the following endpoints using `http://localhost:8080` as the base URL:
 
 - `/packages/{packageId}` - Get details of a specific package by its ID, including package name, destinations and details of the activities available at each destination, like name, cost, capacity and description.
 
