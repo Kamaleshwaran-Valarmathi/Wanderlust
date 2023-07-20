@@ -43,9 +43,9 @@ To get the Wanderlust project up and running, follow these steps:
 git clone https://github.com/Kamaleshwaran-Valarmathi/Wanderlust.git
 ```
 
-2. Open the project in your preferred Integrated Development Environment (IDE), such as IntelliJ IDEA, Eclipse, or Visual Studio Code.
+2. Open the project in your preferred Integrated Development Environment (IDE), such as IntelliJ IDEA, Eclipse.
 
-3. Build the project within the IDE using the provided build or run options. This will compile the code and create the necessary target or output directories.
+3. Build the project within the IDE using the provided build options. This will compile the code and create the necessary target directories.
 
 4. Run the main function in the `WanderlustApplication` class to start the application.
 
